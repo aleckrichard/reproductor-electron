@@ -1,6 +1,6 @@
 # 🎵 Mini Reproductor de Música
 
-Una app de escritorio construida con [Electron](https://www.electronjs.org/) para reproducir tus archivos de música locales (`.mp3`, `.wav`).
+Una app de escritorio construida con [Electron](https://www.electronjs.org/) para reproducir tus archivos de música locales en MP3
 
 ## 🚀 Características
 

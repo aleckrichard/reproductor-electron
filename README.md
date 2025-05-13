@@ -21,12 +21,17 @@ npm install
 npm start
 ```
 
-## 🛠️ Build para crear binario
+## 🛠️  Generar ejecutable
 ```bash
 npm run build
 ```
 
 ## 📦 Tecnologías
-Electron
-HTML + CSS + JS
-Node.js# reproductor-electron
+⚡ Electron
+🧩 Node.js
+🌐 HTML, CSS y JavaScript
+
+## 📥 Descargas
+
+- 🪟 [Descargar para Windows](bin/windows/Reproductor.exe)
+- 🍎 [Descargar para macOS](bin/mac/Reproductor.app)

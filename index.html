@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>🎵 Mini Reproductor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎧 Mi Reproductor</h1>
+
+  <button id="load">🎼 Cargar Carpeta</button>
+
+  <div id="player">
+    <div id="info">
+      <p id="current-song">🎶 No hay canción</p>
+      <progress id="progress" value="0" max="100"></progress>
+    </div>
+
+    <div id="controls">
+      <button id="prev">⏮</button>
+      <button id="play">▶️/⏸️</button>
+      <button id="next">⏭</button>
+    </div>
+  </div>
+
+  <ul id="playlist"></ul>
+
+  <audio id="audio" hidden></audio>
+  <script src="renderer.js"></script>
+</body>
+</html>

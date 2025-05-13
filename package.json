@@ -1,0 +1,29 @@
+{
+  "name": "mini-reproductor",
+  "version": "1.0.0",
+  "description": "Mini reproductor de música local",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.alex.mini.reproductor",
+    "productName": "Mini Reproductor",
+    "files": [
+      "**/*"
+    ],
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {"electron": "^36.2.0",
+    "electron-builder": "^26.0.12"
+  }
+}
